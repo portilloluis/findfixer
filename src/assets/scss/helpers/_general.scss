@@ -1,0 +1,40 @@
+/** ELEMENTOS GENERALES **/
+html, body {
+    font: {
+      family: $principal-font;
+      size: $font-size;
+    }
+    color: $font-color;
+    background-color: $light-grey;
+}
+
+/** ÁTOMOS **/
+a {
+    transition: all .3s ease-out;
+}
+
+footer{
+    padding: $paddingGeneral;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+li { 
+    list-style-position: inside; 
+}
+
+nav {
+    padding: $paddingGeneral;
+}
+
+main{
+    padding: $paddingGeneral;
+}
+
+header {
+    padding: $paddingGeneral;
+}

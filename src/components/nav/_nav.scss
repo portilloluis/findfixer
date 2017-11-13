@@ -1,0 +1,23 @@
+.mainNav{
+    background-color: $blue;
+    &-logo{
+        display: flex;
+        align-items: center;
+        h1 {
+            font: {
+                family: $logo-font;
+                weight: normal;
+            }
+            color: $dark-blue;
+            letter-spacing: 1px; 
+            span {
+                color: $light-blue;
+                letter-spacing: 1px;
+            }
+        }
+        img {
+            width: 2.3rem;
+            margin-right:.3rem;
+        }
+    }
+}
