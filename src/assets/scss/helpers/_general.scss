@@ -29,12 +29,41 @@ li {
 
 nav {
     padding: $paddingGeneral;
+    @media screen and (min-width: 768px) {
+        padding-left: $paddingGeneralMedium;
+    }
 }
 
 main{
     padding: $paddingGeneral;
+    @media screen and (min-width: 768px) {
+        padding-left: $paddingGeneralMedium;
+    }
 }
 
 header {
     padding: $paddingGeneral;
+    @media screen and (min-width: 768px) {
+        padding-left: $paddingGeneralMedium;
+    }
+}
+
+.centerContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    @media screen and (min-width: 768px){
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    @media screen and (min-width: 900px) {
+        margin-left: auto;
+        margin-right: auto; 
+        width: 80%;
+    }
+    @media screen and (min-width: 1200px ){
+        max-width: 1200px;
+    }
 }

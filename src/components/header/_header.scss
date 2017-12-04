@@ -1,7 +1,40 @@
+$spaceElements : 1.4rem;
+
 .mainHeader {
     background: {
         color: $blue;
     }
+    color: white;
+
+    &-phrase {
+        font:  {
+            family: $secundary-font;
+            size: 1.5rem;
+            weight: normal;
+        }
+        letter-spacing: 1.4px;
+        text-align: center;
+        margin-bottom: $spaceElements;
+        @media screen and (min-width: 768px) {
+            font-size: 2rem;
+            text-align: left;
+            width: 40%;
+        }
+        @media screen and (min-width: 900px){
+            font-size: 3rem;
+            width: 50%
+        }
+    }
+
+    &-image {
+        width: 15rem;
+        margin-bottom: $spaceElements;
+        @media screen and (min-width: 768px) {}
+        @media screen and (min-width: 900px) {
+            width: 24rem;
+        }
+    }
+    
 }
 
 
